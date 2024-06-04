@@ -311,6 +311,7 @@ t5.hideturtle()
 t6.hideturtle()
 t7.hideturtle()
 t8.hideturtle()
+t9.hideturtle()
 
 exitonclick()
 
