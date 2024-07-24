@@ -1,0 +1,5 @@
+print(False and 521512< 0)
+print(True and -1212 <0)
+print(True or 10236>218326)
+print(False or 0>110)
+print(True or 1222>3222)
