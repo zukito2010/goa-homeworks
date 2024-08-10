@@ -1,0 +1,6 @@
+/* this is external css which is in another file and it makes your code more organized when you write big codes */
+h1{
+    background-color:rgb(255, 36, 128) ;
+}
+/* in specificity inline is the best and internal is the worst */
+/* from this three "ids classes and elements" on first priority is id second is classes and third is element */
