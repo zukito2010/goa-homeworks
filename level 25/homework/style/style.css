@@ -1,0 +1,38 @@
+h3{
+    text-align: center;
+    color:white;
+}
+.imgs{
+    border: solid;
+    border-color: black;
+    text-align: center;
+}
+
+#Gallery{
+    display: flow-root;
+}
+
+#i1{
+    background-color: tomato;
+    color: white;
+}
+
+#i2{
+    background-color: lightcoral;
+    color: white;
+}
+#i3{
+    color: white;
+    background-color: tomato;
+}
+html{
+    scroll-behavior: smooth;
+}
+#rtcl1{
+    border: solid;
+    border-color: tomato ;
+    text-align:center;
+    font-size:200%;
+    background-color: lightcoral;
+
+}
