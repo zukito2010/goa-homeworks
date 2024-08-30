@@ -1,0 +1,17 @@
+td , th{
+    width: 150px;
+
+}
+table{
+    background-color: grey;
+    size: 1000px;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+th{
+    background-color: rgb(54, 54, 54);
+}

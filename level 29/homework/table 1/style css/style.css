@@ -1,0 +1,22 @@
+#tr1{
+    background-color: green;
+    color: white;
+
+}
+table{
+    background: lightgreen;
+    
+}
+th , td{
+    width: 200px;
+    height: 150%;
+}
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+h3{
+    text-align: center;
+}
