@@ -1,0 +1,25 @@
+#ul1{
+    list-style: square  outside     none;
+}
+/* list styles  type   position   image  */
+/* types - there are many different types of list-style-type like georgian english roman square circle etc. but default is "disc"*/
+/* position - inside: The bullet points will be inside the list item. outside: The bullet points will be outside the list item. This is default. initial: Sets this property to its default value. inherit: 	Inherits this property from its parent element.*/
+/* image - image is used like this (list-style-image: url('sqpurple.gif');). */
+div{
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: red solid ;
+    border-radius: 80px;
+    /* border radius is used to make border corners more round */
+}
+h1{
+    color: white;
+    margin-left: 10px;
+    /* margin expands size of its parent element */
+}
+
+
+
+

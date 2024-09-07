@@ -1,0 +1,9 @@
+form{
+    background-color: goldenrod;
+    display:inline-flex;
+    border: solid 15px;
+    border-color: goldenrod;
+}
+input[type="text"]:hover{
+    color: beige;
+}

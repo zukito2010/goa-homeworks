@@ -1,0 +1,18 @@
+ol{
+    list-style: upper-roman;
+    border: solid;
+    background-color: antiquewhite;
+    border-radius: 15px;
+
+}
+ul{
+    list-style-position: inside;
+    list-style-type: circle;
+    border: solid;
+    background-color: black;
+    
+}
+ul:hover{
+    color: white;
+    text-shadow: white 20px;
+}

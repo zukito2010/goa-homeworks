@@ -1,0 +1,21 @@
+/** display flex allows you to manipulate elements aligment and spacing within a container */
+#p{
+    display: flex;
+    flex-direction: column;
+    /* sets a direction either row or column */
+    justify-content: flex-end;
+    /* justify content is sub-property which defines how the browser will distribute content horizontally. values:flex-start, flex-end, center, baseline.; */
+    background-color: red;
+    color: white;
+    flex-wrap: nowrap;
+    /* sets whether flex items are forced onto one line or can wrap onto multiple lines. */
+}
+#p1{
+    color: white;
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    align-items: flex-end;
+    /* same as justify content but vertically */
+}
+
