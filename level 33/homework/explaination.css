@@ -1,0 +1,18 @@
+ /* justify-content defines to how to distribute content in the site (horizontally). values: flex-start(puts content at start), flex-end(same as start but puts it in the end), space-between(items will have space between them), space-around(items will have space before, between, and after them),space-evenly(items will have equal space around them), initial(sets this property to its default value.),inherit(Inherits this property from its parent element.) */
+
+/* align-items is same as justify content but vertical. */
+
+/* flex-direction switches direction of justify content adn align items. values: row(default), row-reverse(justify-content will be reversed), column(now justify content will be vertical and align items horizontal), column-reverse(same as column but justify content reversed) */
+
+/* order just puts order on items its values are numbers */
+
+/* align-self just like align-items but on individual items */
+
+/* flex-wrap property specifies whether the flexible items should wrap or not. values: nowrap(default), wrap(Specifies that the flexible items will wrap if necessary), wrap-reverse(same as wrap but in reverse),  */
+
+/* flex-flow property is a shorthand property for: flex-direction and flex-wrap  */
+
+/* align-content is same as align-items but it is on everything */
+
+
+

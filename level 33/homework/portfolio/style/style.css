@@ -1,0 +1,96 @@
+header{
+    background-color:antiquewhite;
+    color:darkblue;
+    border:solid 4px rgb(235, 215, 189);  
+    display: flex;  
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+footer{
+    background-color:antiquewhite;
+    color:darkblue;
+    border:solid 4px rgb(235, 215, 189);
+}
+#about{
+    text-align: center;
+    height: 80vh;
+}
+#ab1{
+    border: solid rgb(235, 215, 189);
+    display: inline-flex;
+    margin:5px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+#abp{ /* (about paragraph) */
+    margin: 10px;
+}
+html{
+    background-color: darksalmon;
+    scroll-behavior: smooth;
+}
+#t1{
+    border: solid;
+    background-color:black;
+
+}
+td , th{
+    background-color: lightgray;
+    height: 70px;
+    width: 40px;
+}
+h2{
+    text-align: center;
+}
+article{
+    border: solid rgb(235, 215, 189);
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 150px;
+    margin: 30px;
+    padding: 30px;
+}
+#main{
+    height: 100vh;
+}
+a{
+    text-decoration:  none;
+}
+#mainav{
+    display: inline-flex;
+}
+body, footer, header{
+    margin: 0;
+    padding: 0;
+}
+#navi{
+    display: inline-flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    border: darkblue solid;
+    background-color: darkblue;
+
+}
+.nava{
+    padding: 3px;
+    color: white;
+}
+#zuka.t{
+    display: flex;
+
+    padding-right: 15px;
+}
+#zukimg{
+    height: 60px;
+    display: flex;
+
+}
+#me_at_goa{
+    height: 300px;
+    float: right;
+    margin-right: 45%;
+    margin-top: 20px;
+}

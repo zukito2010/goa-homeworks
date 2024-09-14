@@ -1,0 +1,33 @@
+.examples{
+    height: 90vh;
+    
+    display:flex;
+}
+.box{
+    border:solid;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+}
+#ex1{
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+#ex2{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    display: inline-flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+#ex3{
+    background-color: rgb(83, 241, 241);
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
