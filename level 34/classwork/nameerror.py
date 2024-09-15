@@ -1,7 +1,7 @@
 name = "mamuka"
 
 try:
-    print(name)
+    print(namee)
 except NameError:
     print("that name is unknown")
 

@@ -1,0 +1,13 @@
+.div{
+    height: 100vh;
+    background-color: lightblue;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:solid;
+    position: static;
+    
+
+}

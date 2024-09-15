@@ -1,0 +1,13 @@
+.div{
+    height: 200vh;
+    background-color: lightblue;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:solid;
+    position: sticky;
+    top: 0;
+
+}
