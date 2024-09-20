@@ -1,0 +1,58 @@
+
+
+body{
+
+    height: 210vh;
+}
+/* static is a default position */
+div{
+    background-color: lightblue;
+    height: 600px;
+    width: 600px;
+    color: white;
+    
+}
+#div1{
+    height: 310px;
+    width: 310px;
+    background-color: red;
+
+    position: absolute;
+    /* is on top layer and positions only in parent elements that is not unset.*/
+    top: 50px;
+    left: 210px;
+
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+    position: relative;
+    /* is like absolute but in its parent element it will be positioned in closest ancestor doesn`t matter position setting. */
+    top: 150px;
+    left: 150px;
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+    position: fixed;
+    /* is fixed to one place even if you scroll */
+    right: 10px;
+
+}
+
+#div4{
+    
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    
+    position: sticky;
+    /* when you scroll down from it or up from it it will stick to the screen. */
+    top: 0px;
+}
+
