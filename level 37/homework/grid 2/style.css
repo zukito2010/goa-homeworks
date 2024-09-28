@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+.parent{
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 3;
+    background-color: lightblue;
+}
+.div{
+    background-color: green;
+
+}
+.div1{
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+.div2{
+    grid-row: 1/2;
+    grid-column:2/4 ;
+}
+.div3{
+    background-color: tomato;
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.div8{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.div5 , .div6{
+    background-color: tomato;
+} 
+.div4 , .div7{
+    background-color: goldenrod;
+}

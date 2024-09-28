@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 500px;
+    width: 900px;
+    display: grid;
+    gap: 20px;
+    background-color: lightblue;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+}
+.div{
+    background-color: grey;
+    border-radius:  15px; ;
+}
+.a , .b  , .c{
+    grid-row:1/2 ;
+}
+
+
