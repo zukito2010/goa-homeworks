@@ -1,0 +1,17 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: asdasd;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes asdasd {
+    from {
+        transform: translate(15px);
+    }
+      to {
+        transform: translate(200px);
+    }
+}

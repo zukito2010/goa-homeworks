@@ -1,0 +1,30 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+    border: solid 1px black;
+    color: white;
+}
+
+.div1:hover{
+    transform: translate(50px);
+    
+}
+
+.div2:hover{
+    transform: scale(2);
+}
+
+.div3:hover{
+    transform: scale(1.5);
+}
+
+.div3:active{
+    transform: scale(1.2);
+    transition: 0.2;
+}
+
+.div4:hover{
+    transform: rotate(180deg);
+}

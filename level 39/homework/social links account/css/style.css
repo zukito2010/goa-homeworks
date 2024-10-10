@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: Inter , Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 100%);
+    
+}
+body , main{
+    margin: 0%;
+    padding: 0%;
+    background-color:hsl(0, 0%, 8%);
+}
+.register{
+    background-color:hsl(0, 0%, 12%);
+    width: 400px;
+    height: 600px;
+    border-radius:15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+img{ 
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    justify-self: center;
+    margin-bottom: 0%;
+}
+.home{
+    margin: 0%;
+    color: hsl(75, 94%, 57%);
+    margin-left: 17%;
+}
+.name{
+    margin-top: 0%;
+    margin-bottom: 2px;
+}
+p{
+    font-size: 14px;
+}
+.front-end{
+    color:hsl(0, 0%, 60%);
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 1px white;
+    
+    
+}
+.but{
+    background-color: hsl(0, 0%, 20%);
+    border: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300%;
+    margin-bottom: 20px;
+
+
+}
+.but:hover{
+    background-color:hsl(75, 94%, 57%) ;
+}
+
+
+text{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 250;
+    margin-top: 0%;
+}

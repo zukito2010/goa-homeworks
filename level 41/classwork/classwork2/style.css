@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: transform 2s linear infinite;
+}
+
+@keyframes transform {
+0% {
+    background-color: red;
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    border-radius: 0;
+}
+50% {
+    background-color: blue;
+    transform: translate(-50%, -50%) scale(2) rotate(90deg);
+}
+100% {
+    background-color: red;
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    border-radius: 50%;
+}
+}
