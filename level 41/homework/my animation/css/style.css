@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    animation: shrekmove 8s infinite;
+}
+@keyframes shrekmove{
+    0%{
+        transform: none;
+    }
+    50%{
+
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+    50%{
+
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+}

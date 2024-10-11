@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(50,50 ,50 );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(153, 59, 16);
+    animation: GoAndBack 8s infinite;
+
+
+
+}
+
+@keyframes GoAndBack{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(800%);
+
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
