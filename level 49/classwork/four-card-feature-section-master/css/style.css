@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: Poppins;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 75%;
+
+}
+.upper25{
+    grid-row: 1/2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+.reliable{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+
+}
+.powered{
+    font-weight: 600;
+}
+.powered , .reliable , .our_ai{
+    display: flex;
+    justify-content: center;
+}
+.our_ai{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+}
+main{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 1fr 15%;
+    grid-template-rows: 1fr;
+}
+.supervisor{
+    grid-column: 2/3;
+    margin-top:150px;
+    border-top: solid hsl(180, 62%, 55%) 5px;
+
+}
+.team_builder{
+    border-top: solid hsl(0, 78%, 62%) 5px;
+    margin-bottom: 10px;
+}
+.karma{
+    border-top: solid hsl(34, 97%, 64%) 5px;
+    
+}
+.calculator{
+    border-top: solid hsl(212, 86%, 64%) 5px;
+    margin-top:150px;
+    grid-column: 4/5;
+}
+.divs{
+    border-radius: 3px;
+    grid-row: 1/2;
+    height: 250px;
+    width: 85%;
+    box-shadow: 20px 20px 7px hsl(0, 0%, 98%) ;
+    padding: 15px 30px 30px 15px;
+
+}
+.middledivs{
+    grid-column: 3/4;
+}
+.divh2{
+    font-weight: 600;
+}
+.desc{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+.divtxt{
+    height: 50%;
+
+}
+.img{
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

@@ -1,0 +1,27 @@
+1)
+JS uses:
+java script is used to make webpages more interactive, with different functions.
+it is used for animations, popup ads, alerts etc.
+
+
+2)
+What is an event?
+Event is, a thing that happens or takes place, especially one of importance.
+
+3)
+Is JS static or dynamic and why?
+it is dynamic because variables can hold values of different types during runtime.
+
+4)
+What keywords do we use to create variables?
+most popular keyword is "let" keyword.
+
+5)
+Will this code bring out the error?
+let num = 5;
+let num = 6;
+it will because of the two variables being declared by the same name.
+
+6)
+Why is camelCase called "camelCase"?
+because in the start of the new word we use capital letters which is bigger other letters and look like bumps like camels have on their back.  
