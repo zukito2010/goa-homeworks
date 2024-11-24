@@ -1,0 +1,1 @@
+// dom is a powerful model used for create interactive and dynamic web applications by manipulating HTML content and structure.
