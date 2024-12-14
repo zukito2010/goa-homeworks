@@ -5,7 +5,7 @@ function formSubmit() {
     const email = form.elements.email.value;
     const password = form.elements.password.value;
     const gender = form.elements.gender.value;
-    const terms = form.elements.gender.value;
+    const terms = form.elements.gender.checked;
 
     console.log('Name: ' + name);
     console.log('email: ' + email);
@@ -21,7 +21,9 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
     formSubmit();
 })
-let text = 'are you an adult?'
+
+
+let text = 'are you an adult?';
 
 if (confirm(text)== true){
     text = "You are an adult";
