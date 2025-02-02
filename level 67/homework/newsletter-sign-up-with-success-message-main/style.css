@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    background-color:hsl(234, 29%, 20%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: white;
+    width: 768px;
+    height: 548px;
+    border-radius: 30px;
+}
+.leftside{
+    height: 100%;
+    width: 55%;
+
+}
+.rightside{
+    height: 100%;
+    width: 45%;
+}
+.join{
+    font-size: 14px;
+    color: hsl(235, 18%, 26%);
+}
+
+.middle div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: hsl(234, 29%, 20%);
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(234, 29%, 20%);
+}
