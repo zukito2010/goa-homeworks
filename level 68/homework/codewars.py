@@ -115,3 +115,44 @@ def validate_code(code):
 def evil(n):
     a = bin(n).count('1')
     return "It's Evil!" if a % 2 == 0 else "It's Odious!"
+
+# 17) https://www.codewars.com/kata/57e921d8b36340f1fd000059/train/python
+def shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin):
+    if dolphin:
+        sharkSpeed /= 2  
+    
+    youTime = pontoonDistance / youSpeed 
+    sharkTime = sharkDistance / sharkSpeed  
+    
+    return "Alive!" if youTime < sharkTime else "Shark Bait!"
+
+# 18) https://www.codewars.com/kata/56598d8076ee7a0759000087/train/python
+import math
+
+def calculate_tip(amount, rating):
+    ratings = {
+        "terrible": 0,
+        "poor": 0.05,
+        "good": 0.1,
+        "great": 0.15,
+        "excellent": 0.2
+    }
+    
+    rating = rating.lower() 
+    
+    if rating in ratings:
+        return math.ceil(amount * ratings[rating]) 
+    else:
+        return "Rating not recognised"
+
+# 19) https://www.codewars.com/kata/58dced7b702b805b200000be/train/python
+import math
+
+def distance_between_points(a, b):
+    return math.sqrt((b.x - a.x) ** 2 + (b.y - a.y) ** 2)
+
+# 20) https://www.codewars.com/kata/59811fd8a070625d4c000013/train/python
+def integrate(coefficient, exponent):
+    new_expo = exponent +1
+    new_coef = coefficient // new_expo
+    return f'{new_coef}x^{new_expo}'
