@@ -1,0 +1,1 @@
+Modules in JavaScript allow you to organize and reuse code by splitting it into separate files. This helps keep your code clean, maintainable, and scalable. JavaScript supports two main module systems:common js and es6 modules
