@@ -1,0 +1,10 @@
+#deBox{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(187, 176, 247);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

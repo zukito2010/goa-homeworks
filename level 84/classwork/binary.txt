@@ -1,0 +1,1 @@
+there is simple way to convert powers of twos into binary code. you just write one and zero times power of 2. (if its 2 power of 5 you will write 5 zeros) and if you want to get number before that you just have to write as many 1s as zeros in number before

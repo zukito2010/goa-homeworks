@@ -1,0 +1,13 @@
+.container{
+    height: 370px;
+    width: 370px;
+    background-color: green;
+}
+
+#child-container{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.918);
+
+}
