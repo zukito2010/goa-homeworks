@@ -1,0 +1,12 @@
+{
+  "name": "hw-7",
+  "version": "1.0.0",
+  "description": "homework",
+  "license": "ISC",
+  "author": "zuka",
+  "type": "module",
+  "main": "animals.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
