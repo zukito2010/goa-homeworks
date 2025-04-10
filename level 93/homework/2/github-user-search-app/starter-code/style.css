@@ -1,0 +1,156 @@
+/* general things */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: hsl(222, 40%, 13%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+main{
+    height: 50%;
+    width: 800px;
+}
+
+/* upper half of the main */
+.upper{
+    height: 15%;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#light{
+    height: 37px;
+    border: 0px;
+    background-color:transparent;
+    width: 100px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* search area */
+
+.search{
+    height: 15%;
+    width: 100%;
+    background-color: hsl(224, 40%, 20%);
+    border-radius: 20px ;
+    display: flex;
+    align-items: center;
+}
+
+#search-icon-div{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-icon{
+    width: 40%;
+}
+
+#search-area{
+    width: 75%;
+    height: 100%;
+    border: 0px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    
+}
+
+#search-area::placeholder {
+    color: hsl(216, 15%, 70%);
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+/* no outlines while focused */
+input[type="search"]:focus {
+    outline: none;
+    background-color: transparent;
+}
+/* no clear button */
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+  }
+
+/* search button */
+
+#search-but{
+    margin-left: 10px;
+    width: 100px;
+    height: 60%;
+    background-color: hsl(211, 100%, 50%);
+    border: 0px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#search-but:hover {
+    background-color: hsl(211, 100%, 60%);
+    cursor: pointer;
+    box-shadow: 0 0 10px hsl(211, 100%, 70%);
+  }
+
+
+/* lower parts of the main where results are. */
+
+.lower{
+    margin-top: 40px;
+    height: 70%;
+    background-color: hsl(224, 40%, 20%);
+    border-radius: 20px;
+    display: flex; 
+    gap: 30px; 
+    padding: 30px;
+    color: whitesmoke;
+}
+
+/* name / login */
+#login{
+    display: flex; 
+    justify-content: space-between;
+}
+
+#following{
+    background-color: hsl(222, 40%, 13%); 
+    border-radius: 15px; 
+    padding: 20px; 
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: space-around;
+}
+#socials{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+.social{
+    font-size: 20px;
+    color: white;
+}
